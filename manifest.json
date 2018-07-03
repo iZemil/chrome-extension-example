@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Hello Extension",
+    "description": "Extension description",
+    "version": "1",
+    "author": "zemil",
+    "browser_action": {
+        "default_title": "Hello world",
+        "default_popup": "popup.html"
+    },
+    "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+    },
+    "permissions": ["activeTab"]
+}
