@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
 body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     background: #949494;
     color: #fff;
-    padding: 20px;
+}
+
+.motion-detection {
+    &__window {
+        position: relative;
+
+        canvas,
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
 }
